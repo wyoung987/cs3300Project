@@ -1,4 +1,5 @@
 class Project < ApplicationRecord
-    validates :title, presence: true
-    validates :description, presence: true
+    #require title and description
+    #alidates :title, presence: true
+    #validates :description, presence: true
 end
